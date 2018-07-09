@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.DC-Gimp</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>GIMP</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.pkg.GIMP</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>GIMPPermissionsFixer</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d3f466dec6918163355684c94ea19718ccea5df6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/GIMP/GIMPPermissionsFixer.py</string>
+				<key>sha256_hash</key>
+				<string>4bbbe786b8c2f9dd9c52f9e6ae3789543990d258d2f4204dabebd7c495f70366</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>io.github.hjuutilainen.download.GIMP</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1baa2b2a6c073c0cd8264ff9faa1cce75e01d645</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/GIMP/GIMP.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>399f5deb873a1d8504d6fc2a43281dabd087de6d74a30ba50afe13f00066ce0b</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.GIMP</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d3f466dec6918163355684c94ea19718ccea5df6</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/GIMP/Gimp.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>a190252531b06bf641aab0280409e1f7f00b1b0798c9f24d83ed390a31921bdb</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

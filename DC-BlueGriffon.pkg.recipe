@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.DC-BlueGriffon</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>BlueGriffon</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.pkg.BlueGriffon</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.dataJAR-recipes.download.BlueGriffon</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4ca2ed18f57144281058b4c453c4a7910f73581a</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/BlueGriffon/BlueGriffon.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>9ac0ea59f08f8ab2da4893becd1e44489116ee2b9e658c17d97cb8fbde236cbc</string>
+			</dict>
+			<key>com.github.dataJAR-recipes.pkg.BlueGriffon</key>
+			<dict>
+				<key>git_hash</key>
+				<string>65a21d54653cdca7fbd4616dfe5eff139f53d1c5</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.dataJAR-recipes/BlueGriffon/BlueGriffon.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>1f248bf47cdaf9c97ac96e77654539ce27ab4a536a1ca8f2bd0c372273249469</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

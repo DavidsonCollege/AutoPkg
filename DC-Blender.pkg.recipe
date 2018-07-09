@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.DC-Blender</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Blender</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.pkg.Blender</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>io.github.hjuutilainen.download.Blender</key>
+			<dict>
+				<key>git_hash</key>
+				<string>011be47cf89dcd68ee6d871932310e437efdfaaf</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/Blender/Blender.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>35c96ec9e99af1851b823c1fd20f84ed6145cd311d32af9f23fcbdb3dfd18803</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.Blender</key>
+			<dict>
+				<key>git_hash</key>
+				<string>47b1f82e65a2cc3895b4e9f646752817c4037e0f</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/Blender/Blender.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>9fab04dc90902835dc112e43818589e7467d0fb9ee93da45013470ec21c17996</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

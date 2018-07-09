@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.ti.DC-ATLAS</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://update.atlasti.com/spk/mac/latest/ATLAS.ti.dmg</string>
+		<key>NAME</key>
+		<string>ATLAS.ti</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.pkg.ATLAS.ti</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>io.github.hjuutilainen.download.ATLAS.ti</key>
+			<dict>
+				<key>git_hash</key>
+				<string>89bba55431c07e37bb498cc476ba2366dcf52469</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/ATLAS.ti/ATLAS.ti.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>06181751b53250294d84be6c60f247bad016fe7f0a4eeed15167d86978280387</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.ATLAS.ti</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f628e58fe89685a025e66b38907d41462b1f94d1</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/ATLAS.ti/ATLAS.ti.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>d56aa41f4ca6df804a61ffce0e7468b75ad028628889291e8041829d03b6ad75</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
